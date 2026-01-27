@@ -1,0 +1,28 @@
+2026-01-26 19:53:43.755 [main] INFO  testcase.LoginTest - Starting test: Login with valid credentials
+2026-01-26 20:00:06.283 [main] INFO  testcase.LoginTest - Starting test: Login with wrong password format
+2026-01-26 20:01:42.540 [main] INFO  testcase.LoginTest - Test passed: Error message displayed correctly
+2026-01-26 20:05:30.218 [main] INFO  testcase.LoginTest - Starting test: Login with non-existing email and wrong password
+2026-01-26 20:07:06.947 [main] INFO  testcase.LoginTest - Test passed: Appropriate error shown
+2026-01-26 20:10:54.613 [main] INFO  testcase.LoginTest - Starting test: Non-existing email with valid password format
+2026-01-26 20:16:00.051 [main] INFO  testcase.LoginTest - Starting test: Invalid email format
+2026-01-26 20:17:35.276 [main] INFO  testcase.LoginTest - Test passed: Email validation works correctly
+2026-01-26 20:21:22.963 [main] INFO  testcase.LoginTest - Starting test: Both fields empty
+2026-01-26 20:22:57.253 [main] INFO  testcase.LoginTest - Test passed: Empty field validation works
+2026-01-26 20:26:44.512 [main] INFO  testcase.LoginTest - Starting test: Empty email field
+2026-01-26 20:28:19.413 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 20:32:06.732 [main] INFO  testcase.LoginTest - Starting test: Empty password field
+2026-01-26 20:33:41.459 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 20:37:28.664 [main] INFO  testcase.LoginTest - Starting test: Error modal verification
+2026-01-26 20:39:05.069 [main] INFO  testcase.LoginTest - Test passed: Error modal displays correctly
+2026-01-26 20:42:52.745 [main] INFO  testcase.LoginTest - Starting test: Email with special characters
+2026-01-26 20:44:28.936 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 20:48:16.534 [main] INFO  testcase.LoginTest - Starting test: Password with exactly 8 characters
+2026-01-26 20:49:52.882 [main] INFO  testcase.LoginTest - Test passed: 8-character password accepted
+2026-01-26 20:53:40.449 [main] INFO  testcase.LoginTest - Starting test: Password missing uppercase
+2026-01-26 20:55:16.669 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 20:59:04.315 [main] INFO  testcase.LoginTest - Starting test: Password missing lowercase
+2026-01-26 21:00:40.542 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 21:04:28.229 [main] INFO  testcase.LoginTest - Starting test: Password missing special character
+2026-01-26 21:06:04.888 [main] INFO  testcase.LoginTest - Test passed
+2026-01-26 21:09:52.732 [main] INFO  testcase.LoginTest - Starting test: Password less than 8 characters
+2026-01-26 21:11:28.842 [main] INFO  testcase.LoginTest - Test passed

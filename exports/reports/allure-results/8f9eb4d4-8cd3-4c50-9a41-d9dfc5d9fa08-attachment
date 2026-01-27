@@ -1,0 +1,7 @@
+Test Name: registerSuccessfullyWithValidData
+Test Class: testcase.RegisterTest
+Status: FAILED
+Execution Time: 177017 ms
+
+Error Message:
+HomePage failed to load within 10 seconds

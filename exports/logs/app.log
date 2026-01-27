@@ -1,297 +1,189 @@
-2026-01-09 12:58:44.144 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 12:58:45.061 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 12:58:45.063 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 12:58:45.071 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 12:58:45.072 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 12:58:45.072 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 12:58:57.953 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 12:58:57.989 [main] INFO  common.AppFlowManager - 
+2026-01-27 09:14:56.357 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
+2026-01-27 09:14:57.096 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
+2026-01-27 09:14:57.100 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
+2026-01-27 09:14:57.109 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:14:57.109 [main] INFO  listeners.TestListener - Test Suite Started: Authentication
+2026-01-27 09:14:57.109 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:15:08.382 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
+2026-01-27 09:15:08.473 [main] INFO  common.AppFlowManager - 
 [AppFlow] Handling app launch...
-2026-01-09 12:58:58.701 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 12:58:58.702 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 12:59:12.780 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 12:59:53.457 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 12:59:53.457 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 12:59:53.457 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== CHECKING LOGIN PRECONDITION ==========
-2026-01-09 13:00:03.604 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] User not logged in -> Logging in...
-2026-01-09 13:00:03.606 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 13:01:35.052 [main] INFO  page.LoginPage - Attempting login with email: khoadang1510@gmail.com
-2026-01-09 13:01:35.055 [main] INFO  page.LoginPage - Filling login form for email: khoadang1510@gmail.com
-2026-01-09 13:01:37.852 [main] INFO  page.LoginPage - Clicking Sign In button
-2026-01-09 13:01:40.858 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 13:02:58.044 [main] ERROR page.HomePage - HomePage failed to load within timeout
-2026-01-09 13:02:58.045 [main] ERROR page.HomePage - HomePage failed to load - Exception: HomePage failed to load within 10 seconds
-2026-01-09 13:02:58.059 [main] ERROR common.CommonTest - [Change Password Test - Data Driven] ERROR: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.801 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:02:58.814 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:02:58.814 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.826 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:02:58.840 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:02:58.840 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.861 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:02:58.882 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:02:58.883 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.906 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:02:58.916 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:02:58.917 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.939 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:02:58.959 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:02:58.959 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.965 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:02:58.973 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:02:58.974 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:02:58.989 [main] INFO  common.BaseTest - Quitting driver...
-2026-01-09 13:03:00.020 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - Test Suite Finished: Surefire test
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - Total Tests Run: 5
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - Passed: 0
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - Failed: 0
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - Skipped: 6
-2026-01-09 13:03:00.022 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:03:00.089 [main] INFO  common.BaseTest - ##### Appium server stopped.
-2026-01-09 13:10:44.054 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 13:10:44.807 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 13:10:44.809 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 13:10:44.818 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:10:44.819 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 13:10:44.819 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:10:55.444 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 13:10:55.499 [main] INFO  common.AppFlowManager - 
+2026-01-27 09:15:09.360 [main] INFO  listeners.TestListener - >>> Starting Test: registerSuccessfullyWithValidData <<<
+2026-01-27 09:15:09.374 [main] WARN  listeners.TestListener - Test SKIPPED: registerSuccessfullyWithValidData
+2026-01-27 09:15:09.378 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.466 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithEmailAlreadyExisted <<<
+2026-01-27 09:15:09.466 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithEmailAlreadyExisted
+2026-01-27 09:15:09.467 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.517 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithEmptyFullName <<<
+2026-01-27 09:15:09.518 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithEmptyFullName
+2026-01-27 09:15:09.518 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.553 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithEmptyEmail <<<
+2026-01-27 09:15:09.555 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithEmptyEmail
+2026-01-27 09:15:09.555 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.614 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithEmptyPassword <<<
+2026-01-27 09:15:09.617 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithEmptyPassword
+2026-01-27 09:15:09.621 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.758 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithInvalidFullName <<<
+2026-01-27 09:15:09.760 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithInvalidFullName
+2026-01-27 09:15:09.760 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:09.854 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithInvalidEmailFormat <<<
+2026-01-27 09:15:09.859 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithInvalidEmailFormat
+2026-01-27 09:15:09.860 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.021 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithShortPassword <<<
+2026-01-27 09:15:10.022 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithShortPassword
+2026-01-27 09:15:10.022 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.111 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithPasswordMissingUppercase <<<
+2026-01-27 09:15:10.115 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithPasswordMissingUppercase
+2026-01-27 09:15:10.115 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.169 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithPasswordMissingLowercase <<<
+2026-01-27 09:15:10.170 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithPasswordMissingLowercase
+2026-01-27 09:15:10.170 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.212 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithPasswordMissingSpecialChar <<<
+2026-01-27 09:15:10.213 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithPasswordMissingSpecialChar
+2026-01-27 09:15:10.214 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.241 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithAllFieldsEmpty <<<
+2026-01-27 09:15:10.242 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithAllFieldsEmpty
+2026-01-27 09:15:10.243 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.339 [main] INFO  listeners.TestListener - >>> Starting Test: registerSuccessfullyWithSpecialCharactersInName <<<
+2026-01-27 09:15:10.354 [main] WARN  listeners.TestListener - Test SKIPPED: registerSuccessfullyWithSpecialCharactersInName
+2026-01-27 09:15:10.355 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.421 [main] INFO  listeners.TestListener - >>> Starting Test: registerSuccessfullyWithNumbersInName <<<
+2026-01-27 09:15:10.422 [main] WARN  listeners.TestListener - Test SKIPPED: registerSuccessfullyWithNumbersInName
+2026-01-27 09:15:10.422 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.491 [main] INFO  listeners.TestListener - >>> Starting Test: registerFailedWithPasswordMissingNumber <<<
+2026-01-27 09:15:10.494 [main] WARN  listeners.TestListener - Test SKIPPED: registerFailedWithPasswordMissingNumber
+2026-01-27 09:15:10.505 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.595 [main] INFO  listeners.TestListener - >>> Starting Test: registerWithMinimumValidFullName <<<
+2026-01-27 09:15:10.598 [main] WARN  listeners.TestListener - Test SKIPPED: registerWithMinimumValidFullName
+2026-01-27 09:15:10.621 [main] WARN  listeners.TestListener - Reason: null
+2026-01-27 09:15:10.685 [main] INFO  common.AppFlowManager - 
 [AppFlow] Handling app launch...
-2026-01-09 13:10:56.102 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 13:10:56.102 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 13:11:08.749 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 13:11:49.089 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 13:11:49.089 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 13:11:49.089 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== CHECKING LOGIN PRECONDITION ==========
-2026-01-09 13:11:59.166 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] User not logged in -> Logging in...
-2026-01-09 13:11:59.167 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 13:13:30.778 [main] INFO  page.LoginPage - Attempting login with email: khoadang1510@gmail.com
-2026-01-09 13:13:30.782 [main] INFO  page.LoginPage - Filling login form for email: khoadang1510@gmail.com
-2026-01-09 13:13:33.934 [main] INFO  page.LoginPage - Clicking Sign In button
-2026-01-09 13:13:36.154 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 13:16:56.679 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 13:16:57.508 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 13:16:57.513 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 13:16:57.527 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:16:57.528 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 13:16:57.528 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:17:04.686 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 13:17:04.715 [main] INFO  common.AppFlowManager - 
+2026-01-27 09:15:11.002 [main] INFO  listeners.TestListener - >>> Starting Test: loginSuccessfullyWithValidCredentials <<<
+2026-01-27 09:15:11.004 [main] WARN  listeners.TestListener - Test SKIPPED: loginSuccessfullyWithValidCredentials
+2026-01-27 09:15:11.004 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.039 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithExistingEmailAndWrongPasswordFormat <<<
+2026-01-27 09:15:11.040 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithExistingEmailAndWrongPasswordFormat
+2026-01-27 09:15:11.040 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.087 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithNonExistingEmailAndWrongPasswordFormat <<<
+2026-01-27 09:15:11.088 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithNonExistingEmailAndWrongPasswordFormat
+2026-01-27 09:15:11.088 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.155 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithNonExistingEmailAndValidPasswordFormat <<<
+2026-01-27 09:15:11.156 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithNonExistingEmailAndValidPasswordFormat
+2026-01-27 09:15:11.156 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.220 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithInvalidEmailFormatAndValidPassword <<<
+2026-01-27 09:15:11.223 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithInvalidEmailFormatAndValidPassword
+2026-01-27 09:15:11.223 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.275 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithBothFieldsEmpty <<<
+2026-01-27 09:15:11.276 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithBothFieldsEmpty
+2026-01-27 09:15:11.277 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.337 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithEmptyEmailField <<<
+2026-01-27 09:15:11.338 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithEmptyEmailField
+2026-01-27 09:15:11.340 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.383 [main] INFO  listeners.TestListener - >>> Starting Test: loginFailedWithEmptyPasswordField <<<
+2026-01-27 09:15:11.390 [main] WARN  listeners.TestListener - Test SKIPPED: loginFailedWithEmptyPasswordField
+2026-01-27 09:15:11.408 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.469 [main] INFO  listeners.TestListener - >>> Starting Test: verifyErrorModalDisplayedForInvalidCredentials <<<
+2026-01-27 09:15:11.470 [main] WARN  listeners.TestListener - Test SKIPPED: verifyErrorModalDisplayedForInvalidCredentials
+2026-01-27 09:15:11.471 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.502 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithEmailContainingSpecialCharacters <<<
+2026-01-27 09:15:11.505 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithEmailContainingSpecialCharacters
+2026-01-27 09:15:11.506 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.529 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithPasswordExactly8Characters <<<
+2026-01-27 09:15:11.533 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithPasswordExactly8Characters
+2026-01-27 09:15:11.534 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.639 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithPasswordMissingUppercase <<<
+2026-01-27 09:15:11.640 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithPasswordMissingUppercase
+2026-01-27 09:15:11.641 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.668 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithPasswordMissingLowercase <<<
+2026-01-27 09:15:11.669 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithPasswordMissingLowercase
+2026-01-27 09:15:11.669 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.687 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithPasswordMissingSpecialChar <<<
+2026-01-27 09:15:11.689 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithPasswordMissingSpecialChar
+2026-01-27 09:15:11.690 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.717 [main] INFO  listeners.TestListener - >>> Starting Test: loginWithPasswordLessThan8Characters <<<
+2026-01-27 09:15:11.718 [main] WARN  listeners.TestListener - Test SKIPPED: loginWithPasswordLessThan8Characters
+2026-01-27 09:15:11.718 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:11.749 [main] INFO  common.AppFlowManager - 
 [AppFlow] Handling app launch...
-2026-01-09 13:17:05.169 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 13:17:05.169 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 13:17:18.205 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 13:17:58.469 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 13:17:58.469 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 13:17:58.469 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== CHECKING LOGIN PRECONDITION ==========
-2026-01-09 13:18:08.520 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] User not logged in -> Logging in...
-2026-01-09 13:18:08.522 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 13:19:39.907 [main] INFO  page.LoginPage - Attempting login with email: khoadang1510@gmail.com
-2026-01-09 13:19:39.909 [main] INFO  page.LoginPage - Filling login form for email: khoadang1510@gmail.com
-2026-01-09 13:19:44.285 [main] ERROR common.CommonTest - [Change Password Test - Data Driven] ERROR: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.817 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:19:44.827 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:19:44.827 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.835 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:19:44.840 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:19:44.842 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.849 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:19:44.854 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:19:44.857 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.864 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:19:44.873 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:19:44.876 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.887 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:19:44.895 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:19:44.896 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.905 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:19:44.912 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:19:44.912 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:19:44.927 [main] INFO  common.BaseTest - Quitting driver...
-2026-01-09 13:19:45.473 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:19:45.474 [main] INFO  listeners.TestListener - Test Suite Finished: Surefire test
-2026-01-09 13:19:45.474 [main] INFO  listeners.TestListener - Total Tests Run: 5
-2026-01-09 13:19:45.475 [main] INFO  listeners.TestListener - Passed: 0
-2026-01-09 13:19:45.475 [main] INFO  listeners.TestListener - Failed: 0
-2026-01-09 13:19:45.475 [main] INFO  listeners.TestListener - Skipped: 6
-2026-01-09 13:19:45.475 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:19:45.541 [main] INFO  common.BaseTest - ##### Appium server stopped.
-2026-01-09 13:43:53.044 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 13:43:53.634 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 13:43:53.637 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 13:43:53.644 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:43:53.645 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 13:43:53.645 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:44:01.429 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 13:44:01.457 [main] INFO  common.AppFlowManager - 
+2026-01-27 09:15:12.061 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordSuccess <<<
+2026-01-27 09:15:12.061 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordSuccess
+2026-01-27 09:15:12.063 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.101 [main] INFO  listeners.TestListener - >>> Starting Test: testInvalidNewPasswordFormat <<<
+2026-01-27 09:15:12.104 [main] WARN  listeners.TestListener - Test SKIPPED: testInvalidNewPasswordFormat
+2026-01-27 09:15:12.106 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.147 [main] INFO  listeners.TestListener - >>> Starting Test: testInvalidCurrentPassword <<<
+2026-01-27 09:15:12.148 [main] WARN  listeners.TestListener - Test SKIPPED: testInvalidCurrentPassword
+2026-01-27 09:15:12.149 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.182 [main] INFO  listeners.TestListener - >>> Starting Test: testNewPasswordEmpty <<<
+2026-01-27 09:15:12.183 [main] WARN  listeners.TestListener - Test SKIPPED: testNewPasswordEmpty
+2026-01-27 09:15:12.183 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.224 [main] INFO  listeners.TestListener - >>> Starting Test: testBothFieldsEmpty <<<
+2026-01-27 09:15:12.234 [main] WARN  listeners.TestListener - Test SKIPPED: testBothFieldsEmpty
+2026-01-27 09:15:12.234 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.290 [main] INFO  listeners.TestListener - >>> Starting Test: testCurrentPasswordEmpty <<<
+2026-01-27 09:15:12.314 [main] WARN  listeners.TestListener - Test SKIPPED: testCurrentPasswordEmpty
+2026-01-27 09:15:12.314 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.356 [main] INFO  listeners.TestListener - >>> Starting Test: testInvalidCurrentFormatAndEmptyNew <<<
+2026-01-27 09:15:12.360 [main] WARN  listeners.TestListener - Test SKIPPED: testInvalidCurrentFormatAndEmptyNew
+2026-01-27 09:15:12.361 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.450 [main] INFO  listeners.TestListener - >>> Starting Test: testInvalidCurrentFormat <<<
+2026-01-27 09:15:12.455 [main] WARN  listeners.TestListener - Test SKIPPED: testInvalidCurrentFormat
+2026-01-27 09:15:12.462 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.521 [main] INFO  listeners.TestListener - >>> Starting Test: testNewPasswordEqualsCurrent <<<
+2026-01-27 09:15:12.522 [main] WARN  listeners.TestListener - Test SKIPPED: testNewPasswordEqualsCurrent
+2026-01-27 09:15:12.522 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.548 [main] INFO  listeners.TestListener - >>> Starting Test: testLoginWithNewPasswordAfterChange <<<
+2026-01-27 09:15:12.549 [main] WARN  listeners.TestListener - Test SKIPPED: testLoginWithNewPasswordAfterChange
+2026-01-27 09:15:12.551 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.590 [main] INFO  listeners.TestListener - >>> Starting Test: testInvalidSpecialCharacter <<<
+2026-01-27 09:15:12.591 [main] WARN  listeners.TestListener - Test SKIPPED: testInvalidSpecialCharacter
+2026-01-27 09:15:12.592 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.619 [main] INFO  listeners.TestListener - >>> Starting Test: testMinLengthBoundary <<<
+2026-01-27 09:15:12.620 [main] WARN  listeners.TestListener - Test SKIPPED: testMinLengthBoundary
+2026-01-27 09:15:12.620 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.664 [main] INFO  listeners.TestListener - >>> Starting Test: testCaseSensitiveCurrentPassword <<<
+2026-01-27 09:15:12.666 [main] WARN  listeners.TestListener - Test SKIPPED: testCaseSensitiveCurrentPassword
+2026-01-27 09:15:12.669 [main] WARN  listeners.TestListener - Reason: Could not initialize class org.example.keywords.MobileUI
+2026-01-27 09:15:12.681 [main] INFO  common.BaseTest - Quitting driver...
+2026-01-27 09:15:14.527 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:15:14.528 [main] INFO  listeners.TestListener - Test Suite Finished: Authentication
+2026-01-27 09:15:14.528 [main] INFO  listeners.TestListener - Total Tests Run: 44
+2026-01-27 09:15:14.528 [main] INFO  listeners.TestListener - Passed: 0
+2026-01-27 09:15:14.529 [main] INFO  listeners.TestListener - Failed: 0
+2026-01-27 09:15:14.529 [main] INFO  listeners.TestListener - Skipped: 44
+2026-01-27 09:15:14.529 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:15:14.744 [main] INFO  common.BaseTest - ##### Appium server stopped.
+2026-01-27 09:15:59.943 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
+2026-01-27 09:16:00.590 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
+2026-01-27 09:16:00.599 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
+2026-01-27 09:16:00.621 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:16:00.622 [main] INFO  listeners.TestListener - Test Suite Started: Authentication
+2026-01-27 09:16:00.622 [main] INFO  listeners.TestListener - ========================================
+2026-01-27 09:16:07.039 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
+2026-01-27 09:16:07.129 [main] INFO  common.AppFlowManager - 
 [AppFlow] Handling app launch...
-2026-01-09 13:44:01.902 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 13:44:01.902 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 13:44:14.650 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 13:44:54.895 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 13:44:54.896 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 13:44:54.896 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== CHECKING LOGIN PRECONDITION ==========
-2026-01-09 13:45:04.951 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] User not logged in -> Logging in...
-2026-01-09 13:45:04.953 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 13:46:36.281 [main] INFO  page.LoginPage - Attempting login with email: khoadang1510@gmail.com
-2026-01-09 13:46:36.283 [main] INFO  page.LoginPage - Filling login form for email: khoadang1510@gmail.com
-2026-01-09 13:46:40.947 [main] ERROR common.CommonTest - [Change Password Test - Data Driven] ERROR: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.539 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:46:41.555 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:46:41.555 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.579 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:46:41.600 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:46:41.601 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.623 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:46:41.643 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:46:41.644 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.659 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:46:41.678 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:46:41.679 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.728 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:46:41.750 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:46:41.751 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.761 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:46:41.769 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:46:41.770 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:46:41.787 [main] INFO  common.BaseTest - Quitting driver...
-2026-01-09 13:46:43.644 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:46:43.645 [main] INFO  listeners.TestListener - Test Suite Finished: Surefire test
-2026-01-09 13:46:43.645 [main] INFO  listeners.TestListener - Total Tests Run: 5
-2026-01-09 13:46:43.645 [main] INFO  listeners.TestListener - Passed: 0
-2026-01-09 13:46:43.645 [main] INFO  listeners.TestListener - Failed: 0
-2026-01-09 13:46:43.646 [main] INFO  listeners.TestListener - Skipped: 6
-2026-01-09 13:46:43.646 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:46:43.823 [main] INFO  common.BaseTest - ##### Appium server stopped.
-2026-01-09 13:48:47.832 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 13:48:48.358 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 13:48:48.360 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 13:48:48.367 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:48:48.367 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 13:48:48.367 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:48:54.008 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 13:48:54.035 [main] INFO  common.AppFlowManager - 
-[AppFlow] Handling app launch...
-2026-01-09 13:48:54.480 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 13:48:54.480 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 13:49:07.970 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 13:49:48.243 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 13:49:48.244 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 13:49:48.244 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] ========== CHECKING LOGIN PRECONDITION ==========
-2026-01-09 13:49:58.291 [main] INFO  common.CommonTest - [Change Password Test - Data Driven] User not logged in -> Logging in...
-2026-01-09 13:49:58.292 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 13:51:29.662 [main] INFO  page.LoginPage - Attempting login with email: khoadang@gmail.com
-2026-01-09 13:51:29.664 [main] INFO  page.LoginPage - Filling login form for email: khoadang@gmail.com
-2026-01-09 13:51:33.757 [main] ERROR common.CommonTest - [Change Password Test - Data Driven] ERROR: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.272 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:51:34.281 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:51:34.281 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.287 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:51:34.293 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:51:34.294 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.299 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:51:34.315 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:51:34.315 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.322 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordBoundary <<<
-2026-01-09 13:51:34.329 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordBoundary
-2026-01-09 13:51:34.329 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.340 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:51:34.347 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:51:34.348 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.355 [main] INFO  listeners.TestListener - >>> Starting Test: testChangePasswordEmptyFields <<<
-2026-01-09 13:51:34.360 [main] WARN  listeners.TestListener - Test SKIPPED: testChangePasswordEmptyFields
-2026-01-09 13:51:34.360 [main] WARN  listeners.TestListener - Reason: Login precondition failed for Change Password Test - Data Driven
-2026-01-09 13:51:34.371 [main] INFO  common.BaseTest - Quitting driver...
-2026-01-09 13:51:35.182 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:51:35.182 [main] INFO  listeners.TestListener - Test Suite Finished: Surefire test
-2026-01-09 13:51:35.182 [main] INFO  listeners.TestListener - Total Tests Run: 5
-2026-01-09 13:51:35.183 [main] INFO  listeners.TestListener - Passed: 0
-2026-01-09 13:51:35.183 [main] INFO  listeners.TestListener - Failed: 0
-2026-01-09 13:51:35.184 [main] INFO  listeners.TestListener - Skipped: 6
-2026-01-09 13:51:35.184 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 13:51:35.290 [main] INFO  common.BaseTest - ##### Appium server stopped.
-2026-01-09 14:00:33.452 [main] INFO  common.BaseTest - Starting Appium server on 127.0.0.1:4723
-2026-01-09 14:00:34.012 [main] INFO  common.BaseTest - ##### Appium server started on 127.0.0.1:4723
-2026-01-09 14:00:34.014 [main] INFO  common.BaseTest - Created Allure environment file: C:\Users\Archer\AndroidStudioProjects\LessonSourceCode\FinalProject2025\exports\reports\allure-results\environment.properties
-2026-01-09 14:00:34.023 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 14:00:34.023 [main] INFO  listeners.TestListener - Test Suite Started: Surefire test
-2026-01-09 14:00:34.023 [main] INFO  listeners.TestListener - ========================================
-2026-01-09 14:00:39.990 [main] INFO  common.BaseTest - Driver initialized with EXPLICIT WAIT strategy only
-2026-01-09 14:00:40.012 [main] INFO  common.AppFlowManager - 
-[AppFlow] Handling app launch...
-2026-01-09 14:00:40.471 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
-2026-01-09 14:00:40.471 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
-2026-01-09 14:00:46.285 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
-2026-01-09 14:01:26.616 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
-2026-01-09 14:01:26.617 [main] INFO  common.CommonTest - [Login Test - Data Driven] ========== TEST SUITE STARTED ==========
-2026-01-09 14:01:27.265 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== TEST STARTED ==========
-2026-01-09 14:02:07.396 [main] INFO  common.CommonTest - [Login Test - Data Driven] Current state: NOT_LOGGED_IN
-2026-01-09 14:02:47.578 [main] INFO  common.CommonTest - [Login Test - Data Driven] Already on HomePage (state: NOT_LOGGED_IN)
-2026-01-09 14:02:47.718 [main] INFO  listeners.TestListener - >>> Starting Test: testLoginCombinations <<<
-2026-01-09 14:02:47.769 [main] INFO  testcase_datadriven.LoginTestDataDriven - 
-[LG_COMBO1] Combination - Invalid Email + Invalid Password
-2026-01-09 14:02:47.770 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 14:04:19.255 [main] INFO  page.LoginPage - Attempting login expecting failure with email: invalidemail
-2026-01-09 14:04:19.259 [main] INFO  page.LoginPage - Filling login form for email: invalidemail
-2026-01-09 14:04:25.371 [main] ERROR listeners.TestListener - Test FAILED: testLoginCombinations
-2026-01-09 14:04:27.107 [main] INFO  org.example.utils.ScreenshotUtils - Screenshot saved: exports/screenshots\LoginTestDataDriven.testLoginCombinations_Thread1_FAILED_20260109_140426.png
-2026-01-09 14:04:27.126 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== CLEANUP STARTED ==========
-2026-01-09 14:04:27.128 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test Status: FAILED
-2026-01-09 14:04:27.128 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test FAILED -> Clearing data only (no logout to save time)
-2026-01-09 14:04:27.128 [main] INFO  common.CommonTest - [Login Test - Data Driven] Clearing app data (no logout)...
-2026-01-09 14:04:33.843 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 14:05:48.994 [main] ERROR page.HomePage - HomePage failed to load within timeout
-2026-01-09 14:05:48.996 [main] ERROR page.HomePage - HomePage failed to load - Exception: HomePage failed to load within 10 seconds
-2026-01-09 14:05:52.629 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 14:07:12.894 [main] INFO  page.HomePage - HomePage loaded successfully - State: NOT_LOGGED_IN
-2026-01-09 14:07:53.030 [main] INFO  common.CommonTest - [Login Test - Data Driven] Reached HomePage successfully
-2026-01-09 14:07:53.030 [main] INFO  common.CommonTest - [Login Test - Data Driven] App data cleared successfully
-2026-01-09 14:07:53.031 [main] INFO  common.CommonTest - [Login Test - Data Driven] ========== CLEANUP COMPLETED ==========
-
-2026-01-09 14:07:53.035 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== TEST STARTED ==========
-2026-01-09 14:08:33.176 [main] INFO  common.CommonTest - [Login Test - Data Driven] Current state: NOT_LOGGED_IN
-2026-01-09 14:09:13.295 [main] INFO  common.CommonTest - [Login Test - Data Driven] Already on HomePage (state: NOT_LOGGED_IN)
-2026-01-09 14:09:13.299 [main] INFO  listeners.TestListener - >>> Starting Test: testLoginCombinations <<<
-2026-01-09 14:09:13.306 [main] INFO  testcase_datadriven.LoginTestDataDriven - 
-[LG_COMBO2] Combination - Valid Email + Empty Password
-2026-01-09 14:09:13.309 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 14:10:44.705 [main] INFO  page.LoginPage - Attempting login expecting failure with email: test@example.com
-2026-01-09 14:10:44.707 [main] INFO  page.LoginPage - Filling login form for email: test@example.com
-2026-01-09 14:10:48.005 [main] ERROR listeners.TestListener - Test FAILED: testLoginCombinations
-2026-01-09 14:10:49.916 [main] INFO  org.example.utils.ScreenshotUtils - Screenshot saved: exports/screenshots\LoginTestDataDriven.testLoginCombinations_Thread1_FAILED_20260109_141048.png
-2026-01-09 14:10:49.932 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== CLEANUP STARTED ==========
-2026-01-09 14:10:49.933 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test Status: FAILED
-2026-01-09 14:10:49.933 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test FAILED -> Clearing data only (no logout to save time)
-2026-01-09 14:10:49.933 [main] INFO  common.CommonTest - [Login Test - Data Driven] Clearing app data (no logout)...
-2026-01-09 14:10:56.052 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 14:12:12.624 [main] ERROR page.HomePage - HomePage failed to load within timeout
-2026-01-09 14:12:12.625 [main] ERROR page.HomePage - HomePage failed to load - Exception: HomePage failed to load within 10 seconds
-2026-01-09 14:12:16.280 [main] INFO  page.HomePage - Waiting for HomePage to load...
-2026-01-09 14:13:36.542 [main] INFO  page.HomePage - HomePage loaded successfully - State: NOT_LOGGED_IN
-2026-01-09 14:14:16.681 [main] INFO  common.CommonTest - [Login Test - Data Driven] Reached HomePage successfully
-2026-01-09 14:14:16.683 [main] INFO  common.CommonTest - [Login Test - Data Driven] App data cleared successfully
-2026-01-09 14:14:16.683 [main] INFO  common.CommonTest - [Login Test - Data Driven] ========== CLEANUP COMPLETED ==========
-
-2026-01-09 14:14:16.686 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== TEST STARTED ==========
-2026-01-09 14:14:56.816 [main] INFO  common.CommonTest - [Login Test - Data Driven] Current state: NOT_LOGGED_IN
-2026-01-09 14:15:36.964 [main] INFO  common.CommonTest - [Login Test - Data Driven] Already on HomePage (state: NOT_LOGGED_IN)
-2026-01-09 14:15:36.969 [main] INFO  listeners.TestListener - >>> Starting Test: testLoginCombinations <<<
-2026-01-09 14:15:36.976 [main] INFO  testcase_datadriven.LoginTestDataDriven - 
-[LG_COMBO3] Combination - Empty Email + Valid Password
-2026-01-09 14:15:36.977 [main] INFO  page.HomePage - Clicking Sign In button
-2026-01-09 14:17:08.308 [main] INFO  page.LoginPage - Attempting login expecting failure with email: 
-2026-01-09 14:17:08.309 [main] INFO  page.LoginPage - Filling login form for email: 
-2026-01-09 14:17:09.660 [main] ERROR listeners.TestListener - Test FAILED: testLoginCombinations
-2026-01-09 14:17:11.332 [main] INFO  org.example.utils.ScreenshotUtils - Screenshot saved: exports/screenshots\LoginTestDataDriven.testLoginCombinations_Thread1_FAILED_20260109_141710.png
-2026-01-09 14:17:11.335 [main] INFO  common.CommonTest - 
-[Login Test - Data Driven] ========== CLEANUP STARTED ==========
-2026-01-09 14:17:11.337 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test Status: FAILED
-2026-01-09 14:17:11.337 [main] INFO  common.CommonTest - [Login Test - Data Driven] Test FAILED -> Clearing data only (no logout to save time)
-2026-01-09 14:17:11.337 [main] INFO  common.CommonTest - [Login Test - Data Driven] Clearing app data (no logout)...
-2026-01-09 14:17:17.877 [main] INFO  page.HomePage - Waiting for HomePage to load...
+2026-01-27 09:16:07.650 [main] INFO  common.AppFlowManager - [AppFlow] App activated successfully via ADB
+2026-01-27 09:16:07.650 [main] INFO  common.AppFlowManager - [AppFlow] Waiting for app to fully initialize...
+2026-01-27 09:16:21.552 [main] INFO  common.AppFlowManager - [AppFlow] Onboarding already completed or skipped
+2026-01-27 09:17:02.300 [main] INFO  common.AppFlowManager - [AppFlow] On Home Page - State: NOT_LOGGED_IN
+2026-01-27 09:17:02.303 [main] INFO  common.CommonTest - [Register Test] ========== TEST SUITE STARTED ==========
+2026-01-27 09:17:02.371 [main] INFO  common.CommonTest - 
+[Register Test] ========== TEST STARTED ==========
+2026-01-27 09:17:42.605 [main] INFO  common.CommonTest - [Register Test] Current state: NOT_LOGGED_IN
+2026-01-27 09:18:22.795 [main] INFO  common.CommonTest - [Register Test] Already on HomePage (state: NOT_LOGGED_IN)
+2026-01-27 09:18:23.186 [main] INFO  listeners.TestListener - >>> Starting Test: registerSuccessfullyWithValidData <<<
+2026-01-27 09:18:23.193 [main] INFO  page.HomePage - Clicking Register button
+2026-01-27 09:19:54.899 [main] INFO  page.RegisterPage - Attempting registration with email: danthuy18123@gmail.com
+2026-01-27 09:19:54.900 [main] INFO  page.RegisterPage - Filling registration form...
+2026-01-27 09:20:00.630 [main] INFO  page.RegisterPage - Registration form filled completely
+2026-01-27 09:20:00.636 [main] INFO  page.RegisterPage - Clicking Create Account button
+2026-01-27 09:20:01.362 [main] INFO  page.HomePage - Waiting for HomePage to load...
+2026-01-27 09:21:20.132 [main] ERROR page.HomePage - HomePage failed to load within timeout
+2026-01-27 09:21:20.135 [main] ERROR page.HomePage - HomePage failed to load - Exception: HomePage failed to load within 10 seconds
+2026-01-27 09:21:20.148 [main] ERROR listeners.TestListener - Test FAILED: registerSuccessfullyWithValidData
+2026-01-27 09:21:22.947 [main] INFO  org.example.utils.ScreenshotUtils - Screenshot saved: exports/screenshots\RegisterTest.registerSuccessfullyWithValidData_Thread1_FAILED_20260127_092121.png
+2026-01-27 09:21:23.032 [main] INFO  common.CommonTest - 
+[Register Test] ========== CLEANUP STARTED ==========
+2026-01-27 09:21:23.032 [main] INFO  common.CommonTest - [Register Test] Test Status: FAILED
+2026-01-27 09:21:23.032 [main] INFO  common.CommonTest - [Register Test] Test FAILED -> Clearing data only (no logout to save time)
+2026-01-27 09:21:23.032 [main] INFO  common.CommonTest - [Register Test] Clearing app data (no logout)...
+2026-01-27 09:21:30.182 [main] INFO  page.HomePage - Waiting for HomePage to load...
