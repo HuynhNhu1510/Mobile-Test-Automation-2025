@@ -1,0 +1,8 @@
+Test Name: testLoginEmailLength_BVA
+Test Class: testcase_datadriven.LoginTestDataDriven
+Status: FAILED
+Execution Time: 95869 ms
+
+Error Message:
+Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View/android.widget.EditText[2]})
+(tried for 1 second with 500 milliseconds interval)

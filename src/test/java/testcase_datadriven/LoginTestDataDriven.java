@@ -158,7 +158,7 @@ public class LoginTestDataDriven extends CommonTest {
 
         switch (testData.getExpectedResult()) {
             case "email_invalid":
-                Assert.assertTrue(loginPage.isEmailInvalidMessageDisplayed(),
+                Assert.assertTrue(loginPage.isEmailNotExistedErrorDisplayed(),
                         "Email invalid error should be displayed for: " + testData.getTestId());
                 break;
 

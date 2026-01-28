@@ -20,10 +20,10 @@ public class AccountPage {
     }
 
     // Tọa độ cho scroll down: từ dưới lên trên
-    private static final int SCROLL_START_X = 485;
-    private static final int SCROLL_START_Y = 1896;
-    private static final int SCROLL_END_X = 494;
-    private static final int SCROLL_END_Y = 379;
+    private static final int SCROLL_START_X = 545;
+    private static final int SCROLL_START_Y = 2212;
+    private static final int SCROLL_END_X = 531;
+    private static final int SCROLL_END_Y = 330;
     private static final int SCROLL_DURATION_MS = 1000;
 
     @AndroidFindBy(accessibility = "Orders & returns")

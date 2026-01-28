@@ -1,0 +1,7 @@
+Test Name: testLoginEmailLength_BVA
+Test Class: testcase_datadriven.LoginTestDataDriven
+Status: FAILED
+Execution Time: 96798 ms
+
+Error Message:
+Email invalid error should be displayed for: LG.20 expected [true] but found [false]

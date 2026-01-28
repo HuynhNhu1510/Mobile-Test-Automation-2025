@@ -1,0 +1,15 @@
+Test Name: testChangePasswordBoundary
+Test Class: testcase_datadriven.ChangePasswordTestDataDriven
+Status: FAILED
+Execution Time: 73788 ms
+
+Error Message:
+The element 'By.accessibilityId: ic_person' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [9c2c2327-3589-427e-9d9a-b5bf8657a365, clickElement {id=00000000-0000-0069-0000-00c600000004}]
+Capabilities {appium:appActivity: com.italist.mobile.MainActi..., appium:appPackage: com.italist.mobile, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.italist.mobile.MainActi..., appPackage: com.italist.mobile, automationName: UiAutomator2, deviceName: pixel-7-api36, fullReset: false, noReset: true, platformName: ANDROID, platformVersion: 16}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:fullReset: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AppiumDriver:  on ANDROID (9c2c2327-3589-427e-9d9a-b5bf8657a365)] -> accessibility id: ic_person]
+Session ID: 9c2c2327-3589-427e-9d9a-b5bf8657a365

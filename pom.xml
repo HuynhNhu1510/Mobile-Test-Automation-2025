@@ -34,13 +34,6 @@
             <version>10.0.0</version>
         </dependency>
 
-        <!-- Gson (keep if used elsewhere, otherwise can remove) -->
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.13.0</version>
-        </dependency>
-
         <!-- Jackson for JSON Data Parsing -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -119,11 +112,6 @@
                         <property>
                             <name>usedefaultlisteners</name>
                             <value>true</value>
-                        </property>
-
-                        <property>
-                            <name>listener</name>
-                            <value>listeners.TestListener</value>
                         </property>
                     </properties>
 

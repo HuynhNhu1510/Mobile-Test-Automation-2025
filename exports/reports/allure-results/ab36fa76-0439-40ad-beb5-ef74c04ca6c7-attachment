@@ -1,0 +1,7 @@
+Test Name: testLoginEmailLength_BVA
+Test Class: testcase_datadriven.LoginTestDataDriven
+Status: FAILED
+Execution Time: 98115 ms
+
+Error Message:
+Credential error should be displayed for: LG.18 expected [true] but found [false]
