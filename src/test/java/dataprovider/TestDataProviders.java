@@ -225,4 +225,42 @@ public class TestDataProviders {
         }
         return dataArray;
     }
+
+    // ==================== LOGIN AI DATA PROVIDERS ====================
+
+    @DataProvider(name = "loginAI_EmptyFields")
+    public Object[][] loginAI_EmptyFields() {
+        List<LoginTestData> testData = JsonDataReader.getLoginTestData(
+                "login_test_data_ai.empty_fields");
+        return convertLoginDataToArray(testData);
+    }
+
+    @DataProvider(name = "loginAI_InvalidEmail")
+    public Object[][] loginAI_InvalidEmail() {
+        List<LoginTestData> testData = JsonDataReader.getLoginTestData(
+                "login_test_data_ai.invalid_email");
+        return convertLoginDataToArray(testData);
+    }
+
+    @DataProvider(name = "loginAI_InvalidPassword")
+    public Object[][] loginAI_InvalidPassword() {
+        List<LoginTestData> testData = JsonDataReader.getLoginTestData(
+                "login_test_data_ai.invalid_password");
+        return convertLoginDataToArray(testData);
+    }
+
+    @DataProvider(name = "loginAI_ValidLogin")
+    public Object[][] loginAI_ValidLogin() {
+        List<LoginTestData> testData = JsonDataReader.getLoginTestData(
+                "login_test_data_ai.valid_login");
+        return convertLoginDataToArray(testData);
+    }
+
+    @DataProvider(name = "loginAI_WrongCredentials")
+    public Object[][] loginAI_WrongCredentials() {
+        List<LoginTestData> testData = JsonDataReader.getLoginTestData(
+                "login_test_data_ai.wrong_credentials");
+        return convertLoginDataToArray(testData);
+    }
+
 }

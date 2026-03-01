@@ -159,12 +159,17 @@ public class LoginTestDataDriven extends CommonTest {
         switch (testData.getExpectedResult()) {
             case "email_invalid":
                 Assert.assertTrue(loginPage.isEmailNotExistedErrorDisplayed(),
-                        "Email invalid error should be displayed for: " + testData.getTestId());
+                        "We've had some problem. Please try again: " + testData.getTestId());
                 break;
 
             case "credential_error":
                 Assert.assertTrue(loginPage.isEmailNotExistedErrorDisplayed(),
                         "Credential error should be displayed for: " + testData.getTestId());
+                break;
+
+            default:
+                logger.error("Unknown expectedResult: {}", testData.getExpectedResult());
+                Assert.fail("Unknown expectedResult value: " + testData.getExpectedResult());
                 break;
         }
 

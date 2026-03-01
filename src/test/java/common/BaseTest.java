@@ -75,14 +75,34 @@ public class BaseTest {
         options.setAppActivity(ConfigData.APP_ACTIVITY);
         options.setNoReset(Boolean.parseBoolean(ConfigData.NO_RESET));
         options.setFullReset(Boolean.parseBoolean(ConfigData.FULL_RESET));
+   /*     options.setCapability("appium:forceAppLaunch", true);
+        options.setCapability("appium:settings[hideKeyboard]", true);
+        *//*options.setCapability("appium:settings[hideKeyboard]", true);
+        options.setCapability("appium:disableWindowAnimation", true);
+        options.setCapability("appium:skipUnlock", true);*/
 
         try {
             driver = new AppiumDriver(new URL("http://" + host + ":" + port), options);
             DriverManager.setDriver(driver);
+            disableSoftKeyboardPreview();
             logger.info("Driver initialized with EXPLICIT WAIT strategy only");
         } catch (MalformedURLException e) {
             logger.error("Failed to initialize driver", e);
             throw new RuntimeException(e);
+        }
+    }
+
+    private void disableSoftKeyboardPreview() {
+        try {
+            DriverManager.getDriver().executeScript("mobile: shell",
+                    java.util.Map.of(
+                            "command", "settings",
+                            "args", java.util.List.of("put", "secure", "show_ime_with_hard_keyboard", "0")
+                    )
+            );
+            logger.info("Soft keyboard preview disabled");
+        } catch (Exception e) {
+            logger.warn("Could not disable keyboard preview: {}", e.getMessage());
         }
     }
 

@@ -7,21 +7,26 @@
         <listener class-name="listeners.TestListener"/>
     </listeners>
 
-    <test name="Authentication: Data-Driven Testing">
-        <!-- DANH SÁCH TEST CLASSES -->
+   <!-- <test name="Authentication: Data-Driven Testing">
+        &lt;!&ndash; DANH SÁCH TEST CLASSES &ndash;&gt;
         <classes>
             <class name="testcase_datadriven.LoginTestDataDriven"/>
             <class name="testcase_datadriven.ChangePasswordTestDataDriven"/>
             <class name="testcase_datadriven.RegisterTestDataDriven"/>
         </classes>
     </test>
-
-    <!--<test name="Authentication">
-        &lt;!&ndash; DANH SÁCH TEST CLASSES &ndash;&gt;
+-->
+    <test name="Authentication">
         <classes>
             <class name="testcase.RegisterTest"/>
             <class name="testcase.LoginTest"/>
             <class name="testcase.ChangePasswordTest"/>
         </classes>
-    </test>-->
+    </test>
+
+    <test name="Authentication: AI Generated Test Cases">
+        <classes>
+            <class name="testcase_AIgen.LoginTestAIGeneration"/>
+        </classes>
+    </test>
 </suite>

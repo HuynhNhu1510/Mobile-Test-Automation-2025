@@ -249,6 +249,23 @@ public class MobileUI {
         logger.trace("Set text completed for element");
     }
 
+    /*public static void hideKeyboard() {
+        try {
+            getDriver().executeScript("mobile: hideKeyboard");
+            logger.trace("Keyboard hidden via mobile: hideKeyboard");
+        } catch (Exception e1) {
+            try {
+                // Neu khong duoc, thu nhan phim Back
+                if (getDriver() instanceof AndroidDriver) {
+                    ((AndroidDriver) getDriver()).pressKey(new KeyEvent(AndroidKey.BACK));
+                    logger.trace("Keyboard hidden via BACK key");
+                }
+            } catch (Exception e2) {
+                logger.trace("Could not hide keyboard: {}", e2.getMessage());
+            }
+        }
+    }*/
+
     @Step("Clear text")
     public static void clearText(By locator) {
         logger.debug("Clearing text on element located by: {} with default timeout", locator);

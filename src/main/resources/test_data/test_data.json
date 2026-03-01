@@ -405,5 +405,130 @@
         }
       ]
     }
+  },
+
+  "login_test_data_ai": {
+    "empty_fields": [
+      {
+        "testId": "LG_AI.01",
+        "category": "Empty Email & Password",
+        "email": "",
+        "password": "",
+        "expectedResult": "email_empty",
+        "expectedMessage": "Please enter your email address",
+        "description": "Ca hai field Email va Password deu de trong"
+      },
+      {
+        "testId": "LG_AI.02",
+        "category": "Empty Email",
+        "email": "",
+        "password": "Abc@1234",
+        "expectedResult": "email_empty",
+        "expectedMessage": "Please enter your email address",
+        "description": "Email de trong, Password hop le"
+      },
+      {
+        "testId": "LG_AI.03",
+        "category": "Empty Password",
+        "email": "user@test.com",
+        "password": "",
+        "expectedResult": "password_empty",
+        "expectedMessage": "Please enter your password",
+        "description": "Email hop le, Password de trong"
+      }
+    ],
+
+    "invalid_email": [
+      {
+        "testId": "LG_AI.04",
+        "category": "Invalid Email Format",
+        "email": "usertest.com",
+        "password": "Abc@1234",
+        "expectedResult": "email_invalid",
+        "expectedMessage": "Please enter valid email address",
+        "description": "Email sai dinh dang, thieu ky tu @"
+      },
+      {
+        "testId": "LG_AI.11",
+        "category": "Trim Spaces Email",
+        "email": " user@test.com ",
+        "password": "Abc@1234",
+        "expectedResult": "email_invalid",
+        "expectedMessage": "Please enter valid email address",
+        "description": "Email co khoang trang dau va cuoi"
+      },
+      {
+        "testId": "LG_AI.12",
+        "category": "Special Characters in Email",
+        "email": "user@#test.com",
+        "password": "Abc@1234",
+        "expectedResult": "email_invalid",
+        "expectedMessage": "Please enter valid email address",
+        "description": "Email chua ky tu dac biet khong hop le"
+      }
+    ],
+
+    "invalid_password": [
+      {
+        "testId": "LG_AI.05",
+        "category": "Password < 8 characters",
+        "email": "user@test.com",
+        "password": "Abc@12",
+        "expectedResult": "credential_error",
+        "expectedMessage": "We've had a problem, please try again",
+        "description": "Password it hon 8 ky tu"
+      },
+      {
+        "testId": "LG_AI.06",
+        "category": "Password missing uppercase",
+        "email": "user@test.com",
+        "password": "abc@1234",
+        "expectedResult": "credential_error",
+        "expectedMessage": "We've had a problem, please try again",
+        "description": "Password khong co chu hoa"
+      },
+      {
+        "testId": "LG_AI.07",
+        "category": "Password missing lowercase",
+        "email": "user@test.com",
+        "password": "ABC@1234",
+        "expectedResult": "credential_error",
+        "expectedMessage": "We've had a problem, please try again",
+        "description": "Password khong co chu thuong"
+      },
+      {
+        "testId": "LG_AI.08",
+        "category": "Password missing special character",
+        "email": "user@test.com",
+        "password": "Abc12345",
+        "expectedResult": "credential_error",
+        "expectedMessage": "We've had a problem, please try again",
+        "description": "Password khong co ky tu dac biet"
+      }
+    ],
+
+    "valid_login": [
+      {
+        "testId": "LG_AI.09",
+        "category": "Valid Email & Password",
+        "email": "khoadang@gmail.com",
+        "password": "Kikiga18123@",
+        "expectedResult": "success",
+        "description": "Du lieu hop le, dang nhap thanh cong"
+      }
+    ],
+
+    "wrong_credentials": [
+      {
+        "testId": "LG_AI.10",
+        "category": "Wrong Password",
+        "email": "khoadang@gmail.com",
+        "password": "WrongPass@1",
+        "expectedResult": "credential_error",
+        "expectedMessage": "We've had a problem, please try again",
+        "description": "Email dung, Password sai"
+      }
+    ]
   }
+
 }
